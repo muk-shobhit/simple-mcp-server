@@ -1,0 +1,18 @@
+{
+    "servers": {
+        "Stocks-MCP-Server": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "D:/projects/published/simple-mcp-server/src/stocks-agent/index.js"
+            ]
+        },
+        "Weather-MCP-Server": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "D:/projects/published/simple-mcp-server/src/weather-agent/index.js"
+            ]
+        }
+    }
+}
